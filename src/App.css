@@ -1,0 +1,48 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Títulos */
+h2, h3 {
+  margin-bottom: 20px;
+}
+
+/* Cards (productos) */
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+/* Hover (UX importante) */
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Imágenes */
+.card img {
+  border-radius: 10px;
+}
+
+/* Botones */
+button {
+  transition: background-color 0.2s ease;
+}
+
+/* Hover botón */
+button:hover {
+  opacity: 0.9;
+}
+
+/* Lista del carrito */
+.list-group-item {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+/* Navbar fix */
+.navbar {
+  margin-bottom: 20px;
+}
