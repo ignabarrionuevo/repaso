@@ -3,7 +3,7 @@ function Carrito({ carrito, eliminar }) {
     <div className="mt-5">
       <h3>Carrito</h3>
 
-      {carrito.length === 0 && <p>No hay productos</p>}
+      {carrito.length === 0 && <p>No hay productos</p>} 
 
       <ul className="list-group">
         {carrito.map((p, i) => (
